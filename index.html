@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    ASIGNO MI FUENTE A OCUPAR   -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--    LINK A MI HOJA DE ESTILOS   -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Desafío Entregable</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h3>Desafío Entregable 3 - INCORPORAR EVENTOS</h3>
+        </div>
+        <div>
+            <h3>
+                Comisión: 37530
+                JavaScript.
+            </h3>
+            <h3>
+                Samuel Arturo García Sánchez
+            </h3>
+        </div>
+        <div>
+            <p>
+                <b>Formato:</b> Página HTML y código fuente en JavaScript. Debe identificar el
+                apellido del alumno/a en el nombre de archivo comprimido por “claseApellido”.
+                <br>
+                <b>Sugerencia:</b> Es posible asociar más de un evento a un elemento y se pueden
+                emplear función comunes, anónimas y arrow para los manejadores de eventos.
+                <br>
+            </p>
+            <p>
+                <b>Consigna:</b> Con lo que vimos sobre DOM, ahora puedes sumarlo a tu proyecto, para interactuar entre
+                los
+                elementos HTML y JS. Es decir, asociar eventos que buscamos controlar sobre los elementos de la interfaz
+                de
+                nuestro simulador.
+                <br>
+            </p>
+            <p>
+                <b>Aspectos a incluir en el entregable:</b>
+                Archivo HTML y Archivo JS, referenciado en el HTML por etiqueta < script src=js/miarchivo.js> < /
+                    script>, que incluya la definición de un algoritmo en JavaScript que opere sobre el DOM manejando
+                    eventos.
+            </p>
+        </div>
+        <div>
+            <p>
+                <b>Ejemplo:</b>
+                <br>
+                -
+                Cuando el usuario completa algún dato, por ejemplo cantidad de cuotas, se captura ese dato y se agregan
+                elementos al DOM mediante JS.
+                <br>
+                - Capturar la tecla ENTER para confirmar alguna acción.
+                <br>
+            </p>
+        </div>
+        <h3>Paquetes vacacionales cargados mediante el uso del archivo Js.</h3>
+        <ul type="1">
+            <li>Se usa bootstrap para darle formato y responsividad a las cards con los productos vacacionales.</li>
+            <li>Se linkea el archivo CSS para darle margen a la página</li>
+            <li>Se linkea el archivo JS para cargar los paquetes mediante el uso de DOM</li>
+            <li>Al final se muestran los paquetes vacacionales disponibles.</li>
+            <li>Si se presiona el botón de "Agregar al carrito" se detecta el evento y se agrega al carrito.</li>
+            <li>En el carrito, si se presiona "Finalizar compra" se detecta el evento del bóton comprar y se mandar alert con el costo total.</li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="container-general">
+            <section id="section-paquetes"></section>
+            <section id="section-carrito"></section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©Paquetes Vacacionales 2022. Todos los derechos reservados.</p>
+    </footer>
+
+    <!--    LINK A MI ARCHIVO JS    -->
+    <script src="./js/paquetes.js"></script>
+    <script src="./js/carrito.js"></script>
+</body>
+
+</html>
